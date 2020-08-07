@@ -382,4 +382,4 @@ def create_window(plotobj,  window_class=Main, **kwargs):
     window.show()
     if app_created:
         app.exec_()
-    return window, app
+    return window
